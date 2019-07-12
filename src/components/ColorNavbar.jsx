@@ -16,6 +16,12 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+
+// images:
+import logo from '../assets/img/cp.png';
+import github from '../assets/img/github.svg';
+import linkedin from '../assets/img/github.svg';
+import '../assets/scss/ColorNavbar.scss'
 // reactstrap components
 import {
   Button,
@@ -33,6 +39,8 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
+
+
 
 class ColorNavbar extends React.Component {
   state = {
@@ -68,10 +76,11 @@ class ColorNavbar extends React.Component {
           <Container>
             <div className="navbar-translate">
               <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
-                <span>BLK•</span> Design System PRO React
+                <img className="logo" src={logo} alt="Conley Potter" />
+                Conley Potter | 608-438-2155 | conley.potter@gmail.com
               </NavbarBrand>
               <UncontrolledTooltip delay={0} target="tooltip6619950104">
-                Designed and Coded by Creative Tim
+                Theme Designed and Coded by Creative Tim | Customized by Conley Potter
               </UncontrolledTooltip>
               <button className="navbar-toggler" id="navigation">
                 <span className="navbar-toggler-bar bar1" />
