@@ -19,8 +19,6 @@ import { Link } from "react-router-dom";
 
 // images:
 import logo from '../assets/img/cp.png';
-import github from '../assets/img/github.svg';
-import linkedin from '../assets/img/github.svg';
 import '../assets/scss/ColorNavbar.scss'
 // reactstrap components
 import {
@@ -280,11 +278,11 @@ class ColorNavbar extends React.Component {
                   <Button
                     className="nav-link"
                     color="default"
-                    href="https://www.creative-tim.com/product/blk-design-system-pro-react?reaf=blkdspr-pages-navbar"
+                    href="https://middle-seeds.s3.us-east-2.amazonaws.com/resume.pdf"
                     size="sm"
                     target="_blank"
                   >
-                    <p>Buy Now</p>
+                    <p>Resume</p>
                   </Button>
                 </NavItem>
               </Nav>

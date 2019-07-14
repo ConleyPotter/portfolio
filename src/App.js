@@ -1,5 +1,6 @@
 import React from 'react';
 import ColorNavBar from "./components/ColorNavbar"
+import MainPage from './components/AboutUs';
 import { HashRouter } from 'react-router-dom';
 import './App.css';
 import "./assets/css/nucleo-icons.css";
@@ -18,6 +19,7 @@ function App() {
       />
       <HashRouter>
         <ColorNavBar component={ColorNavBar}></ColorNavBar>
+        <MainPage component={MainPage}></MainPage>
       </HashRouter>
     </div>
   );
