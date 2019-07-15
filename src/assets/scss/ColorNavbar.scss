@@ -24,3 +24,38 @@
     width: 1000px;
     height: auto;
 }
+
+#icons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+    fill: #f4f5f7;
+    svg {
+        height: 80px;
+        padding: 10px;
+        margin: 10px;
+    }
+    margin-bottom: 300px;
+}
+
+.card-pricing img {
+    height: 200px;
+    width: 100%;
+}
+
+button.github-button {
+    margin-left: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#linkedin {
+    margin-left: 20px;
+    width: 36px;
+    height: 36px;
+}
