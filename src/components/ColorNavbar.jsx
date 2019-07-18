@@ -110,7 +110,7 @@ class ColorNavbar extends React.Component {
                   <Button
                     className="nav-link"
                     color="default"
-                    href="https://middle-seeds.s3.us-east-2.amazonaws.com/Potter_Conley_Resume.pdf"
+                    href="https://middle-seeds.s3.us-east-2.amazonaws.com/Conley_Potter_Resume.pdf"
                     size="sm"
                     target="_blank"
                   >
