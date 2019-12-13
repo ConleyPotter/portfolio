@@ -15,13 +15,11 @@
 
 */
 import React from "react";
-import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
   Button,
   NavItem,
-  NavLink,
   Nav,
   Container,
   Row,
@@ -59,7 +57,7 @@ class DemoFooter extends React.Component {
                 </Nav>
               </Col>
               <Col md="4">
-                <h3 className="title">Follow us:</h3>
+                <h3 className="title">Follow Me:</h3>
                 <div className="btn-wrapper profile text-left">
                   <Button
                     className="btn-icon btn-neutral btn-round btn-simple"

@@ -24,10 +24,6 @@ import '../assets/scss/ColorNavbar.scss'
 import {
   Button,
   UncontrolledCollapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -103,8 +99,8 @@ class ColorNavbar extends React.Component {
               </div>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <img src={require('../assets/img/github.svg')} alt="My Github"/>
-                  <img src={require('../assets/img/linkedin-logo.svg')} alt="My Github" id="linkedin"/>
+                  <a href="https://github.com/ConleyPotter"><img src={require('../assets/img/github.svg')} alt="My Github" /></a>
+                  <a href="https://www.linkedin.com/in/conley-potter/"><img src={require('../assets/img/linkedin-logo.svg')} alt="My Github" id="linkedin" /></a>
                 </NavItem>
                 <NavItem>
                   <Button
