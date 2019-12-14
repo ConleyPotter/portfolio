@@ -194,10 +194,10 @@ class AboutUs extends React.Component {
                       <strong className="text-warning">I'm Conley</strong>
                     </h1>
                     <p className="description">
-                       I am a compassionate Software Engineer, passionate about {/* I don't know if this is the right word, too weird? */}
-                       challenges that are both engaging and urgent. I look 
-                       forward to finding solutions to problems aligned with my 
-                       interests in Healthcare, Cloud Computing, and Journalism.
+                      I am a compassionate Software Engineer, passionate about
+                      challenges that are both engaging and urgent. I look 
+                      forward to finding solutions to any freelance opportunity
+                      presented to me. 
                     </p>
                   </Col>
                   <Col className="ml-auto mr-auto" lg="6" md="8" xs="12">
